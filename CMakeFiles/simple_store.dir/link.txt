@@ -1,0 +1,1 @@
+/usr/sbin/cc -Wl,--dependency-file=CMakeFiles/simple_store.dir/link.d CMakeFiles/simple_store.dir/src/main.c.o CMakeFiles/simple_store.dir/src/store.c.o CMakeFiles/simple_store.dir/src/io.c.o -o simple_store

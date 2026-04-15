@@ -48,10 +48,10 @@ int main() {
       printf("Enter name to remove: ");
       scanf("%s", name);
       removeProductByName(inventory, &count, name);
-      saveInventory(inventory, count, DATA_FILE);
+      saveInventory(inventory, count, full_path);
       break;
     case 4:
-      saveInventory(inventory, count, DATA_FILE);
+      saveInventory(inventory, count, full_path);
       return 0;
     default:
       printf("No matching choice");

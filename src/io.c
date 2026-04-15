@@ -25,7 +25,7 @@ void ensureDirectoryExists(const char *filename) {
     *last_slash = '\0';
 
     // Now 'path' contains only the directory part
-    if (mkdir(path, S_IRWXU) == -1) {
+    if (make_dir(path) == -1) {
       if (errno != EEXIST) {
         // If it fails for reasons other than "already exists", log it
       }
