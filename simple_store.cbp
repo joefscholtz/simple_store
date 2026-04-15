@@ -1,96 +1,112 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_project_file>
-	<FileVersion major="1" minor="6"/>
+	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="simple_store"/>
-		<Option makefile_is_custom="1"/>
-		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option title="simple_store" />
+		<Option makefile_is_custom="1" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="CMake Files/" />
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/joe/aulas_particulares/kaua/simple_store"/>
-				<Option type="4"/>
+				<Option type="4" />
+				<Option compiler="gcc" />
 				<MakeCommands>
-					<Build command="/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command='/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 all' />
+					<CompileFile command='/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
 				</MakeCommands>
 			</Target>
 			<Target title="simple_store">
-				<Option output="/home/joe/aulas_particulares/kaua/simple_store/simple_store" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/joe/aulas_particulares/kaua/simple_store"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option output="/home/joe/aulas_particulares/kaua/simple_store/simple_store" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="/home/joe/aulas_particulares/kaua/simple_store" />
+				<Option object_output="./" />
+				<Option type="1" />
+				<Option compiler="gcc" />
 				<Compiler>
-					<Add option="-DPROJECT_ROOT_PATH=&quot;/home/joe/aulas_particulares/kaua/simple_store&quot;"/>
-					<Add directory="/home/joe/aulas_particulares/kaua/simple_store/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed"/>
-					<Add directory="/usr/include"/>
+					<Add option='-DPROJECT_ROOT_PATH=&quot;/home/joe/aulas_particulares/kaua/simple_store&quot;' />
+					<Add directory="/home/joe/aulas_particulares/kaua/simple_store/include" />
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include" />
+					<Add directory="/usr/local/include" />
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed" />
+					<Add directory="/usr/include" />
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 simple_store"/>
-					<CompileFile command="/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command='/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 simple_store' />
+					<CompileFile command='/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
 				</MakeCommands>
 			</Target>
 			<Target title="simple_store/fast">
-				<Option output="/home/joe/aulas_particulares/kaua/simple_store/simple_store" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/joe/aulas_particulares/kaua/simple_store"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option output="/home/joe/aulas_particulares/kaua/simple_store/simple_store" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="/home/joe/aulas_particulares/kaua/simple_store" />
+				<Option object_output="./" />
+				<Option type="1" />
+				<Option compiler="gcc" />
 				<Compiler>
-					<Add option="-DPROJECT_ROOT_PATH=&quot;/home/joe/aulas_particulares/kaua/simple_store&quot;"/>
-					<Add directory="/home/joe/aulas_particulares/kaua/simple_store/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed"/>
-					<Add directory="/usr/include"/>
+					<Add option='-DPROJECT_ROOT_PATH=&quot;/home/joe/aulas_particulares/kaua/simple_store&quot;' />
+					<Add directory="/home/joe/aulas_particulares/kaua/simple_store/include" />
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include" />
+					<Add directory="/usr/local/include" />
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed" />
+					<Add directory="/usr/include" />
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 simple_store/fast"/>
-					<CompileFile command="/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command='/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 simple_store/fast' />
+					<CompileFile command='/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/joe/aulas_particulares/kaua/simple_store"/>
-				<Option type="4"/>
+				<Option type="4" />
+				<Option compiler="gcc" />
 				<MakeCommands>
-					<Build command="/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command='/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 edit_cache' />
+					<CompileFile command='/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/joe/aulas_particulares/kaua/simple_store"/>
-				<Option type="4"/>
+				<Option type="4" />
+				<Option compiler="gcc" />
 				<MakeCommands>
-					<Build command="/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command='/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 rebuild_cache' />
+					<CompileFile command='/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/sbin/make -j12 -f &quot;/home/joe/aulas_particulares/kaua/simple_store/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/joe/aulas_particulares/kaua/simple_store/src/io.c">
-			<Option target="simple_store"/>
+		<Unit filename="CMakeLists.txt">
+			<Option virtualFolder="CMake Files/" />
 		</Unit>
-		<Unit filename="/home/joe/aulas_particulares/kaua/simple_store/src/main.c">
-			<Option target="simple_store"/>
+		<Unit filename="include/io.h" />
+		<Unit filename="include/store.h" />
+		<Unit filename="src/io.c">
+			<Option compilerVar="CC" />
+			<Option target="simple_store" />
 		</Unit>
-		<Unit filename="/home/joe/aulas_particulares/kaua/simple_store/src/store.c">
-			<Option target="simple_store"/>
+		<Unit filename="src/main.c">
+			<Option compilerVar="CC" />
+			<Option target="simple_store" />
 		</Unit>
-		<Unit filename="/home/joe/aulas_particulares/kaua/simple_store/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\"/>
+		<Unit filename="src/store.c">
+			<Option compilerVar="CC" />
+			<Option target="simple_store" />
 		</Unit>
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
