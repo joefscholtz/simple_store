@@ -1,0 +1,3 @@
+/home/joe/aulas_particulares/kaua/simple_store/build/CMakeFiles/simple_store.dir
+/home/joe/aulas_particulares/kaua/simple_store/build/CMakeFiles/edit_cache.dir
+/home/joe/aulas_particulares/kaua/simple_store/build/CMakeFiles/rebuild_cache.dir

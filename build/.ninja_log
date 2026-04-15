@@ -1,0 +1,7 @@
+# ninja log v7
+0	41	1776288836985016667	CMakeFiles/simple_store.dir/src/main.c.o	d1c6b12c9b880484
+0	43	1776288836986674174	CMakeFiles/simple_store.dir/src/store.c.o	e82bbcf98cc2d1d1
+43	58	1776288837028016641	simple_store	38edc103a3b773d4
+0	42	1776288836986750617	CMakeFiles/simple_store.dir/src/io.c.o	d00a4eb79cd814c1
+0	13	1776288861406017377	CMakeFiles/simple_store.dir/src/main.c.o	d1c6b12c9b880484
+13	23	1776288861419017385	simple_store	38edc103a3b773d4
